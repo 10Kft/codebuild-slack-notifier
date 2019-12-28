@@ -13,7 +13,7 @@ provider:
   name: aws
   stage: ${opt:stage, 'tools'}
   memorySize: 512
-  runtime: nodejs8.10
+  runtime: nodejs12
   timeout: 30
   region: ${opt:region, 'us-west-2'}
   environment:
